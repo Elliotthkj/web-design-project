@@ -1,0 +1,176 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: stretch;
+}
+
+.dark-top-section,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 200px;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.awesome-placeholder {
+  /* border: 1px solid red; */
+  margin: 65px 0;
+  display: flex;
+}
+
+.awesome .one {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.awesome .two {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.awesome button {
+  color: white;
+  background-color: #3882f6;
+  font-weight: bold;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.awesome {
+  padding-right: 20px;
+  flex: 50%;
+}
+
+.placeholder-img {
+  background-color: grey;
+  text-align: center;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+h2 {
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.square-group {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 25px 0 60px;
+}
+
+.square-text {
+  width: 130px;
+}
+
+.square {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 7px;
+}
+
+.thor {
+  background-color: #e5e7eb;
+  padding: 55px 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.thor .one {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.thor .two {
+  text-align: end;
+  font-weight: bolder;
+}
+
+.lower-signup {
+  color: white;
+  flex: 1;
+}
+
+.blue-box {
+  margin: 50px 200px;
+  background-color: #3882f6;
+  border-radius: 7px;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-box button {
+  color: white;
+  background-color: #3882f6;
+  border: 1.5px solid white;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.blue-box-text .one {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.blue-box-text .two {
+  font-size: 15px;
+  color: lightgray;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  flex: 0;
+}
